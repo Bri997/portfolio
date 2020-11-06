@@ -69,10 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# portfolio
-
 ### Material Kit React
 
-## had to create .env with NODE_PATH=./src
+had to create .env with NODE_PATH=./src
 
 [https://demos.creative-tim.com/material-kit-react/#/documentation/tutorial](https://demos.creative-tim.com/material-kit-react/#/documentation/tutorial)
+
+### Inspirations
+
+https://yasio.pl/
+https://www.stevenmengin.com/

@@ -43,12 +43,12 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require('assets/img/landing-bg.jpg')}>
+      <Parallax filter image={require('assets/img/Brian-Musial-BG-Unsplash.jpg')}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Brian Musial</h1>
-              <h4>Developer and DevOps</h4>
+              <h4>Dev + Ops = DevOps dude</h4>
               <br />
               <Button
                 color="danger"
