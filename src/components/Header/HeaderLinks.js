@@ -29,7 +29,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Front End"
           buttonProps={{
             className: classes.navLink,
             color: 'transparent',
@@ -37,10 +37,61 @@ export default function HeaderLinks(props) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/components" className={classes.dropdownLink}>
-              All components
+              About
             </Link>,
             <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
+              href="https://github.com/features/actions"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              GitHub Actions
+            </a>,
+            <a
+              href="https://www.creative-tim.com/product/material-kit-pro-react"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              React Front End
+            </a>,
+            <a
+              href="https://github.com/features/actions"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Documentation
+            </a>,
+          ]}
+        />{' '}
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="CI/CD"
+          buttonProps={{
+            className: classes.navLink,
+            color: 'transparent',
+          }}
+          buttonIcon={Apps}
+          dropdownList={[
+            <Link to="/components" className={classes.dropdownLink}>
+              About
+            </Link>,
+            <a
+              href="https://github.com/features/actions"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              GitHub Actions
+            </a>,
+            <a
+              href="https://www.creative-tim.com/product/material-kit-pro-react"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              React Front End
+            </a>,
+            <a
+              href="https://github.com/features/actions"
               target="_blank"
               className={classes.dropdownLink}
             >
@@ -49,16 +100,17 @@ export default function HeaderLinks(props) {
           ]}
         />
       </ListItem>
-      <ListItem className={classes.listItem}>
+
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> Download 
         </Button>
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
